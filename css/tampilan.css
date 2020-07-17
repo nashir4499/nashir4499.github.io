@@ -1,0 +1,391 @@
+body {
+	background-image: url("../gambar/bgcolor.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	color: black;
+}
+
+.container {
+	margin-top: 6%;
+}
+
+.cardkiri {
+	background-image: url("../gambar/card5.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	color: black;
+	/* top: 5em; */
+	/* margin-top: 7%; */
+}
+
+.isikiri {
+	margin-left: 50px;
+	font-family: FredokaOne-Regular;
+}
+
+.isikanan {
+	background-image: url("../gambar/diriku1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	width: 550px;
+	height: 500px;
+}
+
+.isibawahkanan {
+	position: absolute;
+
+	background-color: white;
+	bottom: 0;
+	right: 0;
+	height: 130px;
+	width: 550px;
+}
+
+.b-tengah h1 {
+	position: absolute;
+	z-index: 2;
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: black;
+}
+
+.b-tengah p {
+	margin-top: 120px;
+}
+
+.tentang p,
+.b-tengah p {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.isibktext {
+	font-family: FredokaOne-Regular;
+	color: #33334d;
+	font-size: 11px;
+	padding: 15px 10px 0px 10px;
+}
+
+.b-atas {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.b-atas p {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.b-atas span {
+	-webkit-text-fill-color: darkblue;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.b-bawah a {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+.b-bawah a:hover {
+	-webkit-text-fill-color: darkblue;
+}
+
+.b-tengah button {
+	background-color: transparent;
+	padding: 5px 15px 5px 15px;
+	border: 1px solid white;
+	/* outline: unset; */
+	transition: 0.5s;
+}
+
+.isibawahkanan button {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-family: FredokaOne-Regular;
+	color: white;
+	background-color: rgb(61, 61, 92);
+	margin-left: 10px;
+	padding: 3px 15px 3px 15px;
+	border: 1px solid #33334d;
+	letter-spacing: 1px;
+	/* outline: unset; */
+	transition: 0.5s;
+}
+
+.isibawahkanan button:hover {
+	opacity: 0.8;
+}
+
+.b-tengah button:hover {
+	background-color: lightblue;
+
+}
+
+.b-bawah {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 30px;
+	letter-spacing: 5px;
+}
+
+@font-face {
+	font-family: FredokaOne-Regular;
+	src: url(../font/FredokaOne-Regular.ttf);
+}
+
+/* card kanan */
+.cardkanan {
+	/* background-image: url("../gambar/card1.jpg"); */
+	background-color: #33334d;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	color: white;
+	font-family: FredokaOne-Regular;
+	/* top: 5em; */
+	/* margin-top: 7%; */
+}
+
+.ikon {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.navvertikal ul {
+	margin-top: 40px;
+	list-style: none;
+	position: absolute;
+	left: 0;
+}
+
+.navvertikal li {
+	margin-left: -10px;
+}
+
+.navvertikal a {
+	padding: 10px 37px 10px 10px;
+	color: white;
+	margin-top: 10px;
+	writing-mode: vertical-rl;
+	font-size: 11px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.aktive a {
+	background-color: rgba(61, 61, 92, 0.6);
+}
+
+.navvertikal a:hover {
+	background-color: rgba(61, 61, 92, 0.6);
+}
+
+/* Tentang */
+.bt-kanan {
+	background-image: url(../gambar/pendidikan.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 365px;
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.pendidikan {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pendidikan h5 {
+	margin-bottom: 20px;
+}
+
+.pendidikan ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pendidikan ul li {
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.pendidikan ul li span {
+	border-radius: 50%;
+	border: 1px dashed black;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.pendidikan ul li:before {
+	/* lines */
+	content: "";
+	position: absolute;
+	left: 25px;
+	/* adjust manually */
+	border-left: 1px solid black;
+	height: 100%;
+	width: 1px;
+}
+
+.pendidikan ul li:first-child:before {
+	/* first li's line */
+	top: 6px;
+	/* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+.pendidikan ul li:last-child:before {
+	/* last li's line */
+	height: 6px;
+	/* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+.bawaht {
+	background-color: white;
+	position: absolute;
+	height: 135px;
+	bottom: 0;
+	left: 1.4%;
+	right: 0;
+}
+
+.bawaht-kiri {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+.bawaht-kanan {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+/* portfolio */
+.bp-atas {
+	margin-top: 30px;
+	/* margin-bottom: 30px; */
+}
+
+.barisitem {
+	left: 0;
+	right: 0;
+}
+
+.item {
+	width: 100%;
+}
+
+.folio {
+	position: relative;
+}
+
+.folio img {
+	position: absolute;
+	top: 40px;
+	/* height: 40vh; */
+	width: 100%;
+	height: 375px;
+	/* float: left; */
+}
+
+.folio img {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.folio img:hover {
+	opacity: 0.7;
+}
+
+.ngame {
+	font-family: FredokaOne-Regular;
+	text-align: center;
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.gdmodal img {
+	/* float: left; */
+	width: 32.9%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.webmodal img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* kontak */
+.bk-kanan {
+	background-image: url(../gambar/kontak.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.bk-tengah {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+}
+
+.ikonk {
+	margin-top: 50px;
+}
+
+.ikonk a {
+	-webkit-text-fill-color: white;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: black;
+	letter-spacing: 10px;
+}
+
+.ikonk a:hover {
+	-webkit-text-fill-color: blue;
+	/* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: black;
+	letter-spacing: 10px;
+}

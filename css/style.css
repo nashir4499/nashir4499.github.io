@@ -1,0 +1,16 @@
+@keyframes slideInFromLeft {
+	0% {
+		left: 5%;
+		width: 0;
+	}
+
+	100% {
+		left: 0;
+		width: 100%;
+	}
+}
+
+.cardkiri {
+	/* This section calls the slideInFromLeft animation we defined above */
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+}
