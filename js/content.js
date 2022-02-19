@@ -187,7 +187,7 @@ async function cekPorto() {
           onclick="closeModal('${data.url}')"
         ></div>
         <div
-          class="flex-[0.85] flex items-center justify-around w-full text-white"
+          class="flex-[0.85] flex items-center justify-between w-full text-white"
         >
           <button
             class="transition-all duration-300 hover:bg-slate-600 hover:bg-opacity-50 p-4 rounded-full z-10"
@@ -222,21 +222,21 @@ async function cekPorto() {
   }
 }
 
-async function arahGambar(pathImg, num, type) {
+async function arahGambar(pathImg, num, type, imgLength) {
   var gambar = document.getElementById(pathImg + "gUtama");
   var nama = gambar.getAttribute("src");
   var setNum =
     parseInt(nama.slice(pathImg.length, pathImg.length + 2)) + parseInt(num);
   // console.log(setNum);
   // console.log();
-  var imgLength = 20;
-  try {
-    const res = await fetch(pathImg + "list.json");
-    const result = await res.json();
-    imgLength = result.length;
-  } catch (e) {
-    console.log(e);
-  }
+  // var imgLength = 20;
+  // try {
+  //   const res = await fetch(pathImg + "list.json");
+  //   const result = await res.json();
+  //   imgLength = result.length;
+  // } catch (e) {
+  //   console.log(e);
+  // }
   if (setNum > 0 && setNum <= imgLength) {
     fetch(pathImg + setNum + "." + type).then((res) => {
       if (res.status === 200) {
@@ -263,7 +263,7 @@ async function openModal(pathImg, type, imgLength) {
       .getElementById(pathImg + "img_list")
       .insertAdjacentHTML(
         "beforeend",
-        `<img src="${pathImg}${i}.${type}" class="h-[15vh] rounded-md transition-all duration-300 opacity-70 hover:opacity-100 cursor-pointer" alt="Img chooce" onclick="gantiGambar('${pathImg}','${pathImg}${i}.${type}')"/>`
+        `<img src="${pathImg}${i}.${type}" class="h-[15vh] rounded-md transition-all duration-300 opacity-70 hover:opacity-100 cursor-pointer" alt="Img chooce" onclick="gantiGambar('${pathImg}','${pathImg}${i}.${type}','${imgLength}')"/>`
       );
   }
 }

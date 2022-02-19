@@ -16,7 +16,7 @@
     "db": "MySql",
     "url": "gambar/02_toshokan/",
     "type": "png",
-    "glength": 5
+    "glength": 11
   },
   {
     "judul": "Kamus Sunda Indo",
@@ -26,7 +26,7 @@
     "db": "MySql",
     "url": "gambar/03_kamus/",
     "type": "png",
-    "glength": 2
+    "glength": 5
   },
   {
     "judul": "Warehouse Inventory",
@@ -84,7 +84,7 @@
   {
     "judul": "GIS Tanaman Padi",
     "bahasa": "JavaScript",
-    "frontend": "ReactJS",
+    "frontend": "ReactJS, Next.js",
     "backend": "Firebase",
     "app": "Website",
     "db": "NoSQL",
