@@ -187,7 +187,7 @@ async function cekPorto() {
           onclick="closeModal('${data.url}')"
         ></div>
         <div
-          class="flex-[0.85] flex items-center justify-between w-full text-white"
+          class="flex-[0.85] flex items-center justify-around w-full text-white md:justify-between"
         >
           <button
             class="transition-all duration-300 hover:bg-slate-600 hover:bg-opacity-50 p-4 rounded-full z-10"
